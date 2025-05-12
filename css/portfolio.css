@@ -1,0 +1,206 @@
+html {
+    width: 100%;
+    height: 100%;
+    
+}
+
+body{
+    margin-top:0px;
+    padding-top:0px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color:#5e7962;
+    background-color: rgb(234, 234, 234);
+    
+   
+
+}
+
+
+.title{
+
+    border: 2px solid #b6c7b8;
+    margin: 10px;
+    padding:50px;
+    padding-bottom: 100px;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.text{
+    font-weight: 300;
+    padding-top: 3%;
+    padding-left: 17%;
+    padding-right: 17%;
+    padding-bottom: 5%;
+    font-size: 1.5em;
+    line-height: 200%;
+
+    
+
+}
+
+
+
+.logo{
+    position: absolute;
+    z-index: 2;
+    margin: 10px;
+}
+
+
+
+/*bubble nav bar*/
+
+
+#mynav a {
+    transition: 0.3s;
+    padding: 15px; 
+    width: 200px;
+    font-size: 20px; 
+    color: white; 
+    border-radius: 50px; 
+    padding: 10px 20px;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+}
+
+#mynav a:hover {
+    filter: drop-shadow(5px 5px 15px #5e7962); 
+}
+
+
+#home {
+    top: 150px;
+    right:64%;
+    background-color: #b6c7b8;
+}
+
+#about {
+    top: 150px;
+    right:44%;
+    background-color: #b6c7b8; 
+}
+
+#project-info {
+    top: 150px;
+    right:24%;
+    background-color: #b6c7b8; 
+}
+
+#portfolio {
+    top: 150px;
+    right: 4%;
+    background-color: #b6c7b8 
+}
+
+
+/* port nav bar*/
+
+
+#portnav1 a {
+    position: fixed; 
+    left: -180px; 
+    transition: 0.3s;
+    padding: 15px; 
+    width: 200px;
+    text-decoration: none; 
+    font-size: 20px; 
+    color: white; 
+    border-radius: 0 5px 5px 0; 
+}
+
+#portnav1 a:hover {
+    left: 0; 
+    filter: drop-shadow(5px 5px 15px #5e7962);
+}
+
+
+
+
+#graphic-design {
+    top: 260px;
+    background-color: #b6c7b8;
+}
+
+#photography {
+    top: 320px;
+    background-color: #b6c7b8; 
+}
+
+#mixed-media {
+    top: 380px;
+    background-color: #b6c7b8; 
+}
+
+#back-to-top {
+    top: 440px;
+    background-color: #b6c7b8 
+}
+
+.graphic-design {
+    
+    display: grid;
+    grid-template-columns: 400px 400px 400px ;
+    grid-gap: 40px;
+    margin: 10em;
+    
+        
+}
+
+
+.photography {
+    
+    display: grid;
+    grid-template-columns: 400px 400px 400px ;
+    grid-gap: 40px;
+    margin: 10em;
+    
+        
+}
+
+.mixed-media {
+    
+    display: grid;
+    grid-template-columns: 400px 400px 400px ;
+    grid-gap: 40px;
+    margin: 10em;
+    
+        
+}
+
+.imgsz img{
+    width:300px; 
+    height:300px;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+.bdytxt{
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-gap: 40px;
+    margin: 5em; 
+}
+
+.bdy img{
+    width: 500px;
+    height:500px ;
+    overflow: hidden;
+    object-fit: contain;
+
+}
